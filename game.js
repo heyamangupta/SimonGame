@@ -6,7 +6,7 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).onclick(
+$(document).click(
     function () {
         if (!started) {
             $(".level-title").text("Level " + level);
